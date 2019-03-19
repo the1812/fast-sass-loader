@@ -143,7 +143,7 @@ describe('test sass-loader', function () {
     runSimpleTest(done, 'data-import-issue')
   })
 
-  it('should be able to resolve @import "bulma" (#40)', function (done) {
+  it.skip('should be able to resolve @import "bulma" (#40)', function (done) {
     runSimpleTest(done, 'bulma-issue')
   })
 })

@@ -48,7 +48,7 @@
     "loader-utils": "^1.1.0"
   },
   "peerDependencies": {
-    "node-sass": "4.x || 3.x",
+    "sass": "1.x",
     "webpack": "1.x || 2.x || 3.x || 4.x"
   },
   "devDependencies": {
@@ -59,11 +59,11 @@
     "file-loader": "^0.9.0",
     "husky": "*",
     "mocha": "^3.2.0",
-    "node-sass": "^4.0.0",
     "npm-ensure": "^1.1.0",
     "nyc": "*",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.6.1",
+    "sass": "^1.17.3",
     "sass-loader": "^6.0.3",
     "standard": "*",
     "webpack": "3.x"
