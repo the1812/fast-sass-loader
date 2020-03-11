@@ -50,7 +50,7 @@ npm install fast-sass-loader --save-dev
 
 and you need install **node-sass** and **webpack** as peer dependencies.
 
-## Configration
+## Configuration
 
 ### webpack 2, 3 and 4:
 
@@ -129,6 +129,12 @@ If you want to import files that aren't basic Sass or css files, you can use the
     }
 }
 ```
+
+### outputStyle:
+The outputStyle option is passed to the render method of node-sass. See [node-sass OutputStyle](https://github.com/sass/node-sass/blob/master/README.md#outputstyle). This can be used to create smaller css files if set to "compressed".
+
+### resolveURLs:
+By default `fast-sass-loader` resolves and rewrites paths inside `url()`. This behavior can be turned off with `resolveURLs: false` option so all URLs will remain intact.
 
 ## Warning
 
