@@ -49,7 +49,7 @@
   },
   "peerDependencies": {
     "sass": "1.x",
-    "webpack": "1.x || 2.x || 3.x || 4.x"
+    "webpack": "1.x || 2.x || 3.x || 4.x || 5.x"
   },
   "devDependencies": {
     "coveralls": "^2.12.0",
